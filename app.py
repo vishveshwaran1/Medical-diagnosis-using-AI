@@ -7,7 +7,7 @@ from datetime import datetime
 
 # MongoDB Connection
 def get_mongo_client():
-    client = pymongo.MongoClient("mongodb+srv://vichusci:GOPIVAII@cluster0.epz6g.mongodb.net/")  # Replace with your MongoDB connection string
+    client = pymongo.MongoClient("YOUR_MONGODB_CONNECTION_STRING")  # Replace with your MongoDB connection string
     return client
 
 # Initialize MongoDB
